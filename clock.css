@@ -1,0 +1,112 @@
+.circle{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 50px solid;
+    background-image: url(nature.avif);
+    background-size: cover; 
+    background-position: center;
+    margin-left: 32%;
+    margin-top: 6%;
+    box-shadow: 8px 8px 810px rgb(75, 77, 189);
+    border-style: groove;
+}
+
+
+.hour{
+   height: 120px;
+   width: 8px;
+   background-color: black; 
+   position: absolute;
+   transform-origin: bottom;
+   transform: rotate(350deg);
+   left: 50.9%;
+   top: 220px;
+   box-shadow: inset 10px 10px 10px -10px rgb(9, 1, 32), inset -10px 10px 10px -10px rgb(32, 32, 32);
+}
+
+.minute{
+    height: 150px;
+    width: 6px;
+    background-color: green; 
+    position: absolute;
+    transform-origin: bottom;
+    transform: rotate(270deg);
+    left: 50.9%;
+   top: 190px;
+    box-shadow: inset 10px 10px 10px -10px rgb(11, 87, 49), inset -10px 10px 10px -10px rgb(32, 167, 27);
+ }
+
+ .second{
+    height: 170px;
+    width: 4px;
+    background-color: red; 
+    position: absolute;
+    transform-origin: bottom;
+    transform: rotate(90deg);
+    left: 50.9%;
+   top: 170px;
+    box-shadow: inset 10px 10px 10px -10px rgb(221, 25, 25), inset -10px 10px 10px -10px rgb(168, 33, 33);
+ }
+
+ .centerpoint{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: 	black;
+    top: 55%;
+    left: 50.3%;
+    box-shadow: inset 10px 10px 10px -10px 	black, inset -10px 10px 10px -10px white;
+}
+
+
+.twelve{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgb(29, 24, 24);
+    top: 25%;
+    left: 50.9%;
+    box-shadow: inset 10px 10px 10px -10px rgb(204, 196, 196), inset -10px 10px 10px -10px rgb(32, 32, 32);
+}
+
+
+.three{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgb(29, 24, 24);
+    top: 51.9%;
+    left: 63%;
+    box-shadow: inset 10px 10px 10px -10px rgb(202, 199, 199), inset -10px 10px 10px -10px rgb(32, 32, 32);
+}
+
+
+.six{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgb(29, 24, 24);
+    top: 83%;
+    left: 50.5%;
+    box-shadow: inset 10px 10px 10px -10px rgb(202, 195, 195), inset -10px 10px 10px -10px rgb(12, 12, 12);
+}
+
+
+.nine{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgb(29, 24, 24);
+    top: 51.9%;
+    left: 37%;
+    box-shadow: inset 10px 10px 10px -10px rgb(224, 220, 220), inset -10px 10px 10px -10px rgb(12, 12, 12);
+}
+.guitar {
+    display: none;
+}
